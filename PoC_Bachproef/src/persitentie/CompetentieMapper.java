@@ -6,10 +6,10 @@ public class CompetentieMapper {
 
 	public Competentie[] geefCompetenties() {
 		Competentie[] competenties = new Competentie[6];
-		competenties[0] = new Competentie("Programmeren en z/OS fundamentals", "Beschrijven opbouw van de mainframeomgeving \nBeschrijven opbouw van een software porgramma \nBegrijpen veel voorkomende programmeer fenomen \nNavigeren van z/OS via ISPF", maakTheorie1());
+		competenties[0] = new Competentie("Programmeren en z/OS fundamentals", "Beschrijven opbouw van de mainframeomgeving \nBeschrijven opbouw van een software programma \nBegrijpen veel voorkomende programmeer fenomenen \nNavigeren van z/OS via ISPF", maakTheorie1());
 		competenties[1] = new Competentie("Software programming en JCL", "Beheersing van de syntax van gebruikte programmeertalen waaronder JCL \nSchrijven van eenvoudige programmas in de gebruikte programmeertalen \nCompileren van een programma via changeman \nOpstellen van een eenvoudig JCL bestand \nHet creëren en bijhouden van een job aan de hand van een JCL bestand", maakTheorie2());
 		competenties[2] = new Competentie("Functioneel programmeren", "Benoemen van de functionaliteiten van een eenvoudig programma \nSchrijven van een eenvoudig programma aan de hand van een lijst van\nfunctionaliteiten", maakTheorie3());
-		competenties[3] = new Competentie("Software verbetering", "Oplijsten en analyseren van de onderdelen van een gegeven programma \nOpmerken van fouten in gegeven segementen van code \nToepassen van gegeven verbetering aan bestaande code", maakTheorie4());
+		competenties[3] = new Competentie("Software verbetering", "Oplijsten en analyseren van de onderdelen van een gegeven programma \nOpmerken van fouten in gegeven segmenten van code \nToepassen van gegeven verbetering aan bestaande code", maakTheorie4());
 		competenties[4] = new Competentie("Software development", "Omzetten van eenvoudige functionaliteiten naar code", maakTheorie5());
 		competenties[5] = new Competentie("Functioneel testen", "Uitvoeren van vooropgestelde testen", maakTheorie6());
 		return competenties;
@@ -304,3 +304,4 @@ public class CompetentieMapper {
     }
     
 }
+
